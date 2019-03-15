@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="methods.js" >
+    		</script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<title>Online Calculator</title>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6 close">
+      <h2> Online Calculator </h2>
+    </div>
+    <div class="col-sm-6 close">
+      <h2> Output </h2>
+    </div>
+    <br><br>
+    <div class="col-sm-6 about1">
+    	<form>
+    		<div class="bt-m">
+    			<input type="button" class="ip" value=" 1 " onclick='addtostring("1")'>
+    			<input type="button" class="ip" value=" 2 " onclick='addtostring("2")'>
+    			<input type="button" class="ip" value=" 3 " onclick='addtostring("3")'>
+    			<input type="button" class="ip" value=" + " onclick='addtostring("+")'>
+    			<input type="button" class="ip" style="background-color: #55ff11;" value=" = " onclick='evalate()'>
+    		</div>
+    		<div class="bt-m">
+    			<input type="button" class="ip" value=" 4 " onclick='addtostring("4")'>
+    			<input type="button" class="ip" value=" 5 " onclick='addtostring("5")'>
+    			<input type="button" class="ip" value=" 6 " onclick='addtostring("6")'>
+    			<input type="button" class="ip" value=" - " onclick='addtostring("-")'>
+    			<input type="button" class="ip" style="background-color: #aaff00;"  value=" ans " onclick='getAns()'>
+    		</div>
+    		<div class="bt-m">
+    			<input type="button" class="ip" value=" 7 " onclick='addtostring("7")'>
+    			<input type="button" class="ip" value=" 8 " onclick='addtostring("8")'>
+    			<input type="button" class="ip" value=" 9 " onclick='addtostring("9")'>
+    			<input type="button" class="ip" value=" X " onclick='addtostring("X")'>
+    			<input type="button" class="ip" style="background-color: #aaff00;" value=" back " onclick='beck()'>
+    		</div>
+    		<div class="bt-m">
+    			<input type="button" class="ip" value=" pi " onclick='addtostring("pi")'>
+    			<input type="button" class="ip" value=" . " onclick='addtostring(".")'>
+    			<input type="button" class="ip" value=" 0 " onclick='addtostring("0")'>
+    			<input type="button" class="ip" value=" / " onclick='addtostring("/")'>
+    			<input type="button" class="ip" style="background-color: #aaff00;" value=" clear " onclick='cleer()'>
+    		</div>
+    		<div class="bt-m">
+    			<input type="button" class="ip" value=" e " onclick='addtostring("e")'>
+    			<input type="button" class="ip" value=" ( " onclick='addtostring("(")'>
+    			<input type="button" class="ip" value=" ) " onclick='addtostring(")")'>
+    			<input type="button" class="ip" value=" % " onclick='addtostring("%")'>
+    			<input type="button" class="ip" value="x^y" onclick='addtostring("^")'>
+    		</div>
+    	</form>
+    </div>
+    <div class="col-sm-5 about2">
+    	<br><br>
+    	<form id="output">
+    		
+    		<input type="text" id="out" autocomplete="off" autocorrect="off" value="" class="op" >
+    	</form>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
+
+</body>
+</html>

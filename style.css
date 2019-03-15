@@ -1,0 +1,51 @@
+body{
+	text-align: center;
+	background: #ffff00;
+}
+h1{
+	text-align: center;
+}
+.container-fluid{
+	text-align: center;
+	margin-top: 1%;
+}
+.close{
+	color: red;
+	border-style: solid;
+	border-color: #faca22;
+	/*background-color: #112233;*/
+	color: red;
+	border-width: 5%;
+	margin-bottom: 5%;
+}
+.about1{
+	text-align: center;
+	line-height: 200%;
+	border-radius: 2%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.about2{
+	text-align: right;
+	padding-left: 20;
+	padding-top: 1%;
+	line-height: 200%;
+}
+/*.keep{
+	margin: 1%;
+}*/
+.ip{
+	width: 15%;
+	padding-bottom: 1%;
+	border-radius: 10%;
+}
+.bt-m{
+	margin-top: 1%;
+}
+.op{
+	text-align: right;
+	line-height: 200%;
+	font-size: 160%;
+	width: 85%;
+	border-radius: 3%;
+}
