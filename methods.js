@@ -62,7 +62,7 @@ function find(num1,num2,op){
             case '/': 
             	return num1/num2;
   
-            case 'X': 
+            case 'x': 
             	return num1*num2;
             
             case '%':
