@@ -80,7 +80,7 @@ function infixEvaluation(exp1){
 	priority.set('+',2);
 	priority.set('%',4);
 	priority.set('/',5);
-	priority.set('X',6);
+	priority.set('x',6);
 	priority.set('^',7);
 	var operands_stack=new Stack();
 	var operation_stack=new Stack();
